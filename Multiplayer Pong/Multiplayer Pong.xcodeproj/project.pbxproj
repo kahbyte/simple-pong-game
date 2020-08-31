@@ -17,6 +17,7 @@
 		302DDA1424F999280030F281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302DDA1224F999280030F281 /* LaunchScreen.storyboard */; };
 		302DDA1F24F999280030F281 /* Multiplayer_PongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDA1E24F999280030F281 /* Multiplayer_PongTests.swift */; };
 		302DDA2A24F999290030F281 /* Multiplayer_PongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DDA2924F999290030F281 /* Multiplayer_PongUITests.swift */; };
+		303772CD24FCCD69000D575B /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303772CC24FCCD69000D575B /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		302DDA2524F999290030F281 /* Multiplayer PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiplayer PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		302DDA2924F999290030F281 /* Multiplayer_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplayer_PongUITests.swift; sourceTree = "<group>"; };
 		302DDA2B24F999290030F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303772CC24FCCD69000D575B /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				302DDA1024F999280030F281 /* Assets.xcassets */,
 				302DDA1224F999280030F281 /* LaunchScreen.storyboard */,
 				302DDA1524F999280030F281 /* Info.plist */,
+				303772CC24FCCD69000D575B /* MenuVC.swift */,
 			);
 			path = "Multiplayer Pong";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				302DDA0A24F999280030F281 /* GameScene.swift in Sources */,
+				303772CD24FCCD69000D575B /* MenuVC.swift in Sources */,
 				302DDA0C24F999280030F281 /* GameViewController.swift in Sources */,
 				302DDA0424F999280030F281 /* AppDelegate.swift in Sources */,
 			);
