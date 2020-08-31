@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		302DDA0024F999280030F281 /* Multiplayer Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplayer Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DDA0024F999280030F281 /* Pong Multiplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong Multiplayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		302DDA0324F999280030F281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		302DDA0524F999280030F281 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		302DDA0724F999280030F281 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		302DDA1024F999280030F281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		302DDA1324F999280030F281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		302DDA1524F999280030F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		302DDA1A24F999280030F281 /* Multiplayer PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiplayer PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DDA1A24F999280030F281 /* Pong MultiplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong MultiplayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		302DDA1E24F999280030F281 /* Multiplayer_PongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplayer_PongTests.swift; sourceTree = "<group>"; };
 		302DDA2024F999280030F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		302DDA2524F999290030F281 /* Multiplayer PongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiplayer PongUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DDA2524F999290030F281 /* Pong MultiplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pong MultiplayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		302DDA2924F999290030F281 /* Multiplayer_PongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplayer_PongUITests.swift; sourceTree = "<group>"; };
 		302DDA2B24F999290030F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		303772CC24FCCD69000D575B /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		302DDA0124F999280030F281 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				302DDA0024F999280030F281 /* Multiplayer Pong.app */,
-				302DDA1A24F999280030F281 /* Multiplayer PongTests.xctest */,
-				302DDA2524F999290030F281 /* Multiplayer PongUITests.xctest */,
+				302DDA0024F999280030F281 /* Pong Multiplayer.app */,
+				302DDA1A24F999280030F281 /* Pong MultiplayerTests.xctest */,
+				302DDA2524F999290030F281 /* Pong MultiplayerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		302DD9FF24F999280030F281 /* Multiplayer Pong */ = {
+		302DD9FF24F999280030F281 /* Pong Multiplayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 302DDA2E24F999290030F281 /* Build configuration list for PBXNativeTarget "Multiplayer Pong" */;
+			buildConfigurationList = 302DDA2E24F999290030F281 /* Build configuration list for PBXNativeTarget "Pong Multiplayer" */;
 			buildPhases = (
 				302DD9FC24F999280030F281 /* Sources */,
 				302DD9FD24F999280030F281 /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = "Multiplayer Pong";
+			name = "Pong Multiplayer";
 			productName = "Multiplayer Pong";
-			productReference = 302DDA0024F999280030F281 /* Multiplayer Pong.app */;
+			productReference = 302DDA0024F999280030F281 /* Pong Multiplayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		302DDA1924F999280030F281 /* Multiplayer PongTests */ = {
+		302DDA1924F999280030F281 /* Pong MultiplayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 302DDA3124F999290030F281 /* Build configuration list for PBXNativeTarget "Multiplayer PongTests" */;
+			buildConfigurationList = 302DDA3124F999290030F281 /* Build configuration list for PBXNativeTarget "Pong MultiplayerTests" */;
 			buildPhases = (
 				302DDA1624F999280030F281 /* Sources */,
 				302DDA1724F999280030F281 /* Frameworks */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				302DDA1C24F999280030F281 /* PBXTargetDependency */,
 			);
-			name = "Multiplayer PongTests";
+			name = "Pong MultiplayerTests";
 			productName = "Multiplayer PongTests";
-			productReference = 302DDA1A24F999280030F281 /* Multiplayer PongTests.xctest */;
+			productReference = 302DDA1A24F999280030F281 /* Pong MultiplayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		302DDA2424F999290030F281 /* Multiplayer PongUITests */ = {
+		302DDA2424F999290030F281 /* Pong MultiplayerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 302DDA3424F999290030F281 /* Build configuration list for PBXNativeTarget "Multiplayer PongUITests" */;
+			buildConfigurationList = 302DDA3424F999290030F281 /* Build configuration list for PBXNativeTarget "Pong MultiplayerUITests" */;
 			buildPhases = (
 				302DDA2124F999290030F281 /* Sources */,
 				302DDA2224F999290030F281 /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				302DDA2724F999290030F281 /* PBXTargetDependency */,
 			);
-			name = "Multiplayer PongUITests";
+			name = "Pong MultiplayerUITests";
 			productName = "Multiplayer PongUITests";
-			productReference = 302DDA2524F999290030F281 /* Multiplayer PongUITests.xctest */;
+			productReference = 302DDA2524F999290030F281 /* Pong MultiplayerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 302DD9FB24F999280030F281 /* Build configuration list for PBXProject "Multiplayer Pong" */;
+			buildConfigurationList = 302DD9FB24F999280030F281 /* Build configuration list for PBXProject "Pong Multiplayer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				302DD9FF24F999280030F281 /* Multiplayer Pong */,
-				302DDA1924F999280030F281 /* Multiplayer PongTests */,
-				302DDA2424F999290030F281 /* Multiplayer PongUITests */,
+				302DD9FF24F999280030F281 /* Pong Multiplayer */,
+				302DDA1924F999280030F281 /* Pong MultiplayerTests */,
+				302DDA2424F999290030F281 /* Pong MultiplayerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		302DDA1C24F999280030F281 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 302DD9FF24F999280030F281 /* Multiplayer Pong */;
+			target = 302DD9FF24F999280030F281 /* Pong Multiplayer */;
 			targetProxy = 302DDA1B24F999280030F281 /* PBXContainerItemProxy */;
 		};
 		302DDA2724F999290030F281 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 302DD9FF24F999280030F281 /* Multiplayer Pong */;
+			target = 302DD9FF24F999280030F281 /* Pong Multiplayer */;
 			targetProxy = 302DDA2624F999290030F281 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -493,7 +493,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiplayer Pong.app/Multiplayer Pong";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong Multiplayer.app/Pong Multiplayer";
 			};
 			name = Debug;
 		};
@@ -514,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiplayer Pong.app/Multiplayer Pong";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pong Multiplayer.app/Pong Multiplayer";
 			};
 			name = Release;
 		};
@@ -559,7 +559,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		302DD9FB24F999280030F281 /* Build configuration list for PBXProject "Multiplayer Pong" */ = {
+		302DD9FB24F999280030F281 /* Build configuration list for PBXProject "Pong Multiplayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				302DDA2C24F999290030F281 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		302DDA2E24F999290030F281 /* Build configuration list for PBXNativeTarget "Multiplayer Pong" */ = {
+		302DDA2E24F999290030F281 /* Build configuration list for PBXNativeTarget "Pong Multiplayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				302DDA2F24F999290030F281 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		302DDA3124F999290030F281 /* Build configuration list for PBXNativeTarget "Multiplayer PongTests" */ = {
+		302DDA3124F999290030F281 /* Build configuration list for PBXNativeTarget "Pong MultiplayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				302DDA3224F999290030F281 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		302DDA3424F999290030F281 /* Build configuration list for PBXNativeTarget "Multiplayer PongUITests" */ = {
+		302DDA3424F999290030F281 /* Build configuration list for PBXNativeTarget "Pong MultiplayerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				302DDA3524F999290030F281 /* Debug */,
