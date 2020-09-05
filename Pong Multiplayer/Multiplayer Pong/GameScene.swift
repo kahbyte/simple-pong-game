@@ -9,11 +9,6 @@
 import SpriteKit
 import GameplayKit
 
-enum TouchType {
-    case tap
-    case drag
-}
-
 class GameScene: SKScene {
     
     //MARK: Initial Configuration 🔧
@@ -62,7 +57,7 @@ class GameScene: SKScene {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches { //For every touch 👆🏽
             let location  = touch.location(in: self) // It'll capture it's location 🗺
-            movePaddle(touchLocation: location, touchType: .tap)
+            movePaddle(touchLocation: location)
         }
     }
     
@@ -70,7 +65,7 @@ class GameScene: SKScene {
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches { //For every touch 👆🏽
             let location  = touch.location(in: self) // It'll capture it's location 🗺
-            movePaddle(touchLocation: location, touchType: .drag)
+            movePaddle(touchLocation: location)
         }
     }
     
@@ -145,13 +140,13 @@ extension GameScene {
     
     /*Moves the  paddles accordingly to the touch location. Different delays for tapping and draging for balancing purposes.
      You can read ternary if as "(condition) ?(if) TRUE :(else) FALSE"  */
-    func movePaddle(touchLocation: CGPoint, touchType: TouchType) {
+    func movePaddle(touchLocation: CGPoint) {
         if touchLocation.x < 0 { // if the location was in the left side of the screen
-            player.run(SKAction.moveTo(y: touchLocation.y, duration: (touchType == TouchType.drag ? 0.1 : 0.3))) // the left paddle will move ⬅️
+            player.run(SKAction.moveTo(y: touchLocation.y, duration: 0.1)) // the left paddle will move ⬅️
         }
             
         else if touchLocation.x > 0 { //if it was in the right side of the screen
-            opponent.run(SKAction.moveTo(y: touchLocation.y, duration: (touchType == TouchType.drag ? 0.1 : 0.3))) // the right paddle will move ➡️. The delay is for cool effects 👌🏽
+            opponent.run(SKAction.moveTo(y: touchLocation.y, duration: 0.1)) // the right paddle will move ➡️. The delay is for cool effects 👌🏽
         }
     }
     
