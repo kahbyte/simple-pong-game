@@ -20,16 +20,18 @@ class MenuVC: UIViewController {
     }
     
     func showConnectionPrompt() {
-        let sessionAlertController = UIAlertController(title: "Local multiplayer", message: "", preferredStyle: .actionSheet)
+        let sessionAlertController = UIAlertController(title: "Multiplayer Local", message: nil, preferredStyle: .actionSheet)
         
         if !isConnected {
-            sessionAlertController.addAction(UIAlertAction(title: "Host session", style: .default, handler: placeholder))
-            sessionAlertController.addAction(UIAlertAction(title: "Join a session", style: .default, handler: placeholder))
+            sessionAlertController.addAction(UIAlertAction(title: "Criar uma sessão", style: .default, handler: placeholder))
+            sessionAlertController.addAction(UIAlertAction(title: "Entrar em uma sessão", style: .default, handler: placeholder))
         } else {
-            sessionAlertController.addAction(UIAlertAction(title: "Disconnect", style: .destructive, handler: placeholder))
+            sessionAlertController.addAction(UIAlertAction(title: "Desconectar", style: .destructive, handler: placeholder))
         }
         
-        sessionAlertController.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        
+        
+        sessionAlertController.addAction(UIAlertAction(title: "Cancelar", style: .cancel))
         
         present(sessionAlertController, animated: true)
         
