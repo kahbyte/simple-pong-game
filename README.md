@@ -32,7 +32,7 @@ Se você chegou aqui, provavelmente o fez através do Medium. Esse é o reposit�
 
 Clicando aqui para ir ao artigo no Medium.
 
-## Resultado final
+## Resultado final 🎮
 
 Um multiplayer funcionando perfeitamente! :D
 
