@@ -2,7 +2,7 @@
 Uma versão simples do jogo que será utilizada para ensinar o básico de MultipeerConnectivity para jogos multiplayer usando LAN.
 
 <div align = "center">
-<h1> Pong Multiplayer </h1>
+<h2> Pong Multiplayer </h2>
     
 [English](https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
     
