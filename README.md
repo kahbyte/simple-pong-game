@@ -5,8 +5,8 @@ Uma versão simples do jogo que será utilizada para ensinar o básico de Multip
 <h2> Pong Multiplayer </h2>
     
 [English](https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
-    
-![pong](https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png =250x250)
+
+<img src="https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png" width="250" height="250" />
     
 <h4>Um projeto desenvolvido com Swift, SpriteKit e MultipeerConnectivity.</h4>
 </div>
