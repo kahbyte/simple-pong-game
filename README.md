@@ -4,7 +4,7 @@ Uma versão simples do jogo que será utilizada para ensinar o básico de Multip
 <div align = "center">
 <h2> Pong Multiplayer </h2>
     
-[English](https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
+[English 🇺🇸](https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
 
 <img src="https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png" width="500" height="500" />
     
