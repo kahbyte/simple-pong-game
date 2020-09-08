@@ -9,7 +9,7 @@ Uma versão simples do jogo que será utilizada para ensinar o básico de Multip
 ![pong](https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png)
     
 <h4>Um projeto desenvolvido com Swift, SpriteKit e MultipeerConnectivity.</h4>
-
+</div>
 
 ## A jornada 👨🏽‍💻
 Se você chegou aqui, provavelmente o fez através do Medium. Esse é o repositório que foi preparado para que você pudesse seguir o passo a passo de como implementar o modo Multiplayer usando MultipeerConnectivity. 
@@ -30,6 +30,10 @@ Se você chegou aqui, provavelmente o fez através do Medium. Esse é o reposit�
     
 2. **Siga o passo a passo**
 Clicando aqui para ir ao artigo no Medium.
+
+3. **Resultado final**
+Um multiplayer funcionando perfeitamente! :D
+![Multiplayer](https://i.pinimg.com/originals/b0/5a/1b/b05a1bd15645ef68e91ccd7a5fc1014d.gif)
 
 <h4 align="center">
     Criado por <a href="https://www.linkedin.com/in/kahbyte/"> Kauê "kahbyte" Sales </a>
