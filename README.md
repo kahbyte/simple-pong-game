@@ -2,14 +2,14 @@
 Uma versão simples do jogo que será utilizada para ensinar o básico de MultipeerConnectivity para jogos multiplayer usando LAN.
 
 <div align = "center">
-    <h1> Pong Multiplayer </h1>
+<h1> Pong Multiplayer </h1>
     
-    [English] (https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
+[English](https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
     
-    ![pong] (https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png)
+![pong](https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png)
     
-    <h4>Um projeto desenvolvido com Swift, SpriteKit e MultipeerConnectivity.</h4>
-</div>
+<h4>Um projeto desenvolvido com Swift, SpriteKit e MultipeerConnectivity.</h4>
+
 
 ## A jornada 👨🏽‍💻
 Se você chegou aqui, provavelmente o fez através do Medium. Esse é o repositório que foi preparado para que você pudesse seguir o passo a passo de como implementar o modo Multiplayer usando MultipeerConnectivity. 
