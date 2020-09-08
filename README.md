@@ -29,10 +29,13 @@ Se você chegou aqui, provavelmente o fez através do Medium. Esse é o reposit�
     ```
     
 2. **Siga o passo a passo**
+
 Clicando aqui para ir ao artigo no Medium.
 
-3. **Resultado final**
+## Resultado final
+
 Um multiplayer funcionando perfeitamente! :D
+
 ![Multiplayer](https://i.pinimg.com/originals/b0/5a/1b/b05a1bd15645ef68e91ccd7a5fc1014d.gif)
 
 <h4 align="center">
