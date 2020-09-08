@@ -4,7 +4,7 @@ A simple version of the game that will be used to teach the basics of MultipeerC
 <div align = "center">
 <h2> Pong Multiplayer </h2>
     
-[English](https://github.com/kahbyte/simple-pong-game/blob/master/READMEus-en.md)
+[Portuguese](https://github.com/kahbyte/simple-pong-game/blob/master/README.md)
 
 <img src="https://i.pinimg.com/originals/0b/d8/6c/0bd86c5869de63194cabe87431956673.png" width="500" height="500" />
     
